@@ -6,6 +6,7 @@
   "author": "Ryan Wise <89052310+z3n-ryanwise@users.noreply.github.com>",
   "license": "MIT",
   "private": true,
+  "type": "module",
   "dependencies": {
     "exceljs": "^4.3.0",
     "xlsx": "^0.18.5"
