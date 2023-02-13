@@ -1,4 +1,5 @@
 import { sheetsJSCreateSheet, sheetsJSReadSheet } from "./src/sheetjs.js";
+import { excelJSCreateSheet, excelJSReadSheet } from "./src/exceljs.js";
 
 const rootfilepath = "./output/";
 const data = [
@@ -15,6 +16,12 @@ const data = [
 ];
 
 // sheetsJS
-const filepath = `${rootfilepath}sheetsjs.xlsx`;
-sheetsJSCreateSheet(filepath, data);
-sheetsJSReadSheet(filepath)
+// const sheetsJSFilepath = `${rootfilepath}sheetsjs.xlsx`;
+// sheetsJSCreateSheet(sheetsJSFilepath, data);
+// sheetsJSReadSheet(sheetsJSFilepath)
+
+// excelJS
+const excelJSFilepath = `${rootfilepath}exceljs.xlsx`;
+excelJSCreateSheet(excelJSFilepath, data);
+// excelJSReadSheet(excelJSFilepath)
+
